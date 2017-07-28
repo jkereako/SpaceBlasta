@@ -25,9 +25,9 @@
 		6277E2AA1F2ABABA00A2642F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		6277E2AC1F2ABABA00A2642F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		6277E2AF1F2ABABA00A2642F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6277E2B11F2ABABA00A2642F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SpriteBlasta/Assets.xcassets; sourceTree = "<group>"; };
+		6277E2B11F2ABABA00A2642F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6277E2B41F2ABABA00A2642F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6277E2B61F2ABABA00A2642F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SpriteBlasta/Info.plist; sourceTree = "<group>"; };
+		6277E2B61F2ABABA00A2642F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,10 +44,10 @@
 		6277E2981F2ABAB900A2642F = {
 			isa = PBXGroup;
 			children = (
-				6277E2BD1F2ABAC900A2642F /* SupportFiles */,
+				6277E2A21F2ABABA00A2642F /* Products */,
 				6277E2BC1F2ABAC400A2642F /* Resources */,
 				6277E2A31F2ABABA00A2642F /* Sources */,
-				6277E2A21F2ABABA00A2642F /* Products */,
+				6277E2BD1F2ABAC900A2642F /* SupportFiles */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,24 +62,23 @@
 		6277E2A31F2ABABA00A2642F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6277E2A81F2ABABA00A2642F /* Actions.sks */,
 				6277E2A41F2ABABA00A2642F /* AppDelegate.swift */,
 				6277E2A61F2ABABA00A2642F /* GameScene.sks */,
-				6277E2A81F2ABABA00A2642F /* Actions.sks */,
 				6277E2AA1F2ABABA00A2642F /* GameScene.swift */,
 				6277E2AC1F2ABABA00A2642F /* GameViewController.swift */,
 			);
-			name = Sources;
-			path = SpriteBlasta;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		6277E2BC1F2ABAC400A2642F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6277E2AE1F2ABABA00A2642F /* Main.storyboard */,
 				6277E2B11F2ABABA00A2642F /* Assets.xcassets */,
 				6277E2B31F2ABABA00A2642F /* LaunchScreen.storyboard */,
+				6277E2AE1F2ABABA00A2642F /* Main.storyboard */,
 			);
-			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		6277E2BD1F2ABAC900A2642F /* SupportFiles */ = {
@@ -87,7 +86,7 @@
 			children = (
 				6277E2B61F2ABABA00A2642F /* Info.plist */,
 			);
-			name = SupportFiles;
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +178,7 @@
 				6277E2AF1F2ABABA00A2642F /* Base */,
 			);
 			name = Main.storyboard;
-			path = SpriteBlasta;
+			path = .;
 			sourceTree = "<group>";
 		};
 		6277E2B31F2ABABA00A2642F /* LaunchScreen.storyboard */ = {
@@ -188,7 +187,7 @@
 				6277E2B41F2ABABA00A2642F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = SpriteBlasta;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -291,7 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SpriteBlasta/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexisdigital.SpriteBlasta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -303,7 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SpriteBlasta/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexisdigital.SpriteBlasta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -330,6 +329,7 @@
 				6277E2BB1F2ABABA00A2642F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
