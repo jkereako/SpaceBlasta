@@ -15,6 +15,8 @@
 		6277E2B01F2ABABA00A2642F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6277E2AE1F2ABABA00A2642F /* Main.storyboard */; };
 		6277E2B21F2ABABA00A2642F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6277E2B11F2ABABA00A2642F /* Assets.xcassets */; };
 		6277E2B51F2ABABA00A2642F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6277E2B31F2ABABA00A2642F /* LaunchScreen.storyboard */; };
+		62F2F0381F2ABEE600FAA652 /* Explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62F2F0361F2ABEE600FAA652 /* Explosion.mp3 */; };
+		62F2F0391F2ABEE600FAA652 /* Missle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 62F2F0371F2ABEE600FAA652 /* Missle.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		6277E2B11F2ABABA00A2642F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6277E2B41F2ABABA00A2642F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6277E2B61F2ABABA00A2642F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F2F0361F2ABEE600FAA652 /* Explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Explosion.mp3; sourceTree = "<group>"; };
+		62F2F0371F2ABEE600FAA652 /* Missle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Missle.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 		6277E2BC1F2ABAC400A2642F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				62F2F0351F2ABEDC00FAA652 /* Audio */,
 				6277E2B11F2ABABA00A2642F /* Assets.xcassets */,
 				6277E2B31F2ABABA00A2642F /* LaunchScreen.storyboard */,
 				6277E2AE1F2ABABA00A2642F /* Main.storyboard */,
@@ -87,6 +92,15 @@
 				6277E2B61F2ABABA00A2642F /* Info.plist */,
 			);
 			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		62F2F0351F2ABEDC00FAA652 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				62F2F0361F2ABEE600FAA652 /* Explosion.mp3 */,
+				62F2F0371F2ABEE600FAA652 /* Missle.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +162,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F2F0391F2ABEE600FAA652 /* Missle.mp3 in Resources */,
+				62F2F0381F2ABEE600FAA652 /* Explosion.mp3 in Resources */,
 				6277E2B01F2ABABA00A2642F /* Main.storyboard in Resources */,
 				6277E2A71F2ABABA00A2642F /* GameScene.sks in Resources */,
 				6277E2B21F2ABABA00A2642F /* Assets.xcassets in Resources */,
